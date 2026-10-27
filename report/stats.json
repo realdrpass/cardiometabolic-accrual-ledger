@@ -1,0 +1,41 @@
+{
+  "access_date": "2026-10-13",
+  "n_in_scope": 2834,
+  "n_completed": 1914,
+  "n_terminated": 337,
+  "n_withdrawn": 122,
+  "n_stopped_classified": 468,
+  "stop_counts": {
+    "poor_enrollment": 151,
+    "business_sponsor": 134,
+    "other_or_not_stated": 71,
+    "design_logistics": 60,
+    "safety": 27,
+    "lack_of_benefit": 25
+  },
+  "terminated_share_of_finished": 0.1497,
+  "n_terminated_poor_enrollment": 109,
+  "by_area": {
+    "Heart failure": {
+      "finished": 296,
+      "terminated": 67
+    },
+    "Hypertension": {
+      "finished": 279,
+      "terminated": 50
+    },
+    "Diabetes": {
+      "finished": 1154,
+      "terminated": 178
+    },
+    "Obesity": {
+      "finished": 378,
+      "terminated": 41
+    },
+    "Dyslipidemia": {
+      "finished": 267,
+      "terminated": 27
+    }
+  },
+  "median_actual_enrollment_completed": 142.0
+}

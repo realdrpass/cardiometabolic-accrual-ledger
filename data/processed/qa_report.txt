@@ -1,0 +1,57 @@
+QA REPORT — Cardiometabolic Trial Accrual Ledger v1.0
+Raw records fetched: 3881
+Candidate rows built: 3881  (must equal raw: OK)
+Duplicate NCT IDs: 0
+No cardiometabolic condition match: 827
+Held out as borderline: 220
+   diabetes_complication: 182
+   prediabetes: 36
+   acute_periop_hypertension: 2
+IN SCOPE (ledger.csv): 2834
+   area_diabetes: 1362
+   area_obesity: 556
+   area_hypertension: 382
+   area_heart_failure: 397
+   area_dyslipidemia: 312
+   trials in 2+ areas: 172
+Status:
+   COMPLETED: 1914
+   TERMINATED: 337
+   RECRUITING: 219
+   ACTIVE_NOT_RECRUITING: 143
+   WITHDRAWN: 122
+   UNKNOWN: 60
+   NOT_YET_RECRUITING: 18
+   ENROLLING_BY_INVITATION: 12
+   SUSPENDED: 9
+Completed or terminated: 2251; of these reporting ACTUAL enrollment: 2230
+Planned enrollment available: 0  (empty in v1.0 by design; added in v1.1, see docs/NEXT_STEPS.md)
+Enrollment reported: min 0, median 103, max 27564, missing 0
+Site count: min 1, median 4, max 1284; trials listing 0 sites: 0
+US site count 0 (should be 0): 0
+Sponsor class:
+   INDUSTRY: 1568
+   OTHER: 1178
+   NIH: 37
+   FED: 33
+   INDIV: 8
+   NETWORK: 6
+   OTHER_GOV: 4
+Phase:
+   PHASE2: 982
+   PHASE3: 883
+   PHASE4: 733
+   PHASE1/PHASE2: 152
+   PHASE2/PHASE3: 84
+Stopped trials classified: 468; flagged for review: 85
+   poor_enrollment: 151
+   business_sponsor: 134
+   other_or_not_stated: 71
+   design_logistics: 60
+   safety: 27
+   lack_of_benefit: 25
+Out-of-scope trials the registry index places in a target area: 244 (listed with reasons in scope_index_crosscheck.csv)
+   listed conditions are other diseases: 161
+   borderline: diabetes_complication: 54
+   borderline: prediabetes: 16
+   hypertension type excluded (X2): 13

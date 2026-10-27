@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+# 75 MB uncompressed download; the compressed copy (.jsonl.gz) is committed
+data/raw/ctgov_studies.jsonl

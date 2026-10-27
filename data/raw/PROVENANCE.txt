@@ -1,0 +1,3 @@
+2026-10-13 | ctgov_studies.jsonl | 75034068 bytes | sha256:53b03bbaece3444b2c5b22d52565e1c5836a376882e67dedd889142a2569426c | https://clinicaltrials.gov/api/v2/studies (paged query; parameters in query.json) | 3881 studies; registry totalCount=3881
+2026-10-13 | query.json | 623 bytes | sha256:4e2264a23b5d04e4715b9c529af1cacc59bade45869f2e2f084611ebad37d091 | https://clinicaltrials.gov/api/v2/studies (paged query; parameters in query.json) | 3881 studies; registry totalCount=3881
+2026-10-26 | ctgov_studies.jsonl.gz | 17762499 bytes | sha256:1ac0c0459e54ec46c9b8714b71ef8f2ec5f3f92b8dd9da815527b36bca734b71 | gzip -9 -n of ctgov_studies.jsonl (13 Oct 2026 download) | uncompressed SHA-256 53b03bba...426c matches line 1

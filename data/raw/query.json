@@ -1,0 +1,9 @@
+{
+  "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+  "query.cond": "diabetes OR obesity OR overweight OR hypertension OR preeclampsia OR \"heart failure\" OR dyslipidemia OR hypercholesterolemia OR hyperlipidemia OR hypertriglyceridemia OR hyperlipoproteinemia",
+  "filter.advanced": "AREA[StudyType]INTERVENTIONAL AND AREA[Phase](PHASE2 OR PHASE3 OR PHASE4) AND AREA[InterventionType]DRUG AND AREA[StudyFirstPostDate]RANGE[2008-01-01,2025-12-31] AND AREA[LocationCountry]\"United States\"",
+  "fields": "protocolSection,derivedSection,hasResults",
+  "pageSize": 1000,
+  "countTotal": "true",
+  "format": "json"
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": "Author block. Every document, citation file, Zenodo record and commit reads names from here, so they appear identically everywhere. Order is author order. Roles use CRediT terms.",
+  "authors": [
+    {
+      "name": "Olufisayo Ogunbayo",
+      "family": "Ogunbayo",
+      "given": "Olufisayo",
+      "orcid": "0009-0003-0351-0786",
+      "email": "eoogunbayo2007@gmail.com",
+      "affiliation": "Independent Researcher",
+      "github": "realdrpass",
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Data curation",
+        "Validation",
+        "Writing - review and editing"
+      ],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}

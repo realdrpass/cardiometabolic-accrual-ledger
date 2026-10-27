@@ -1,0 +1,36 @@
+{
+  "title": "Cardiometabolic Trial Accrual Ledger",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "description": "<p>An open, trial-level dataset of 2,834 US interventional drug trials (Phase 2 to 4, first posted 2008 to 2025, at least one US site) in diabetes, obesity, hypertension, heart failure and dyslipidemia, built from the ClinicalTrials.gov API (data accessed and processed 13 October 2026).</p><p>Each trial carries actual enrollment, status, key dates, site count (total and US), sponsor class and phase. For the 468 trials that stopped early, the sponsor's stated reason is classified into one of six groups (poor enrollment, business or sponsor decision, lack of benefit, safety, study design or logistics, other or not stated) using published coding rules with traceable rule IDs. Poor enrollment is the most common stated reason (151 of 468).</p><p>Included: the ledger (CSV), codebook, coding rules, limitations, quality report, the full candidate list with inclusion decisions, a cross-check against the registry's disease index, the archived registry download with SHA-256 provenance, and the code to rebuild every number. A 10 percent random sample (284 trials) is drawn for hand verification against the registry; agreement rates will be reported when the check is complete. Planned enrollment and the enrollment ratio are added in v1.1.</p><p>Courtesy of the U.S. National Library of Medicine. This dataset is derived from ClinicalTrials.gov records as described in the coding rules; it is a dated snapshot and is not a product of, or endorsed by, the National Library of Medicine.</p><p>The author set every inclusion and coding rule and checked the counts. AI assistance (Claude, Anthropic) was used to write the data pipeline and documentation.</p>",
+  "creators": [
+    {
+      "name": "Ogunbayo, Olufisayo",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0003-0351-0786"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "clinical trials",
+    "trial recruitment",
+    "enrollment",
+    "early termination",
+    "ClinicalTrials.gov",
+    "cardiometabolic disease",
+    "diabetes",
+    "obesity",
+    "hypertension",
+    "heart failure",
+    "dyslipidemia"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://clinicaltrials.gov/data-api/api",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Code is MIT-licensed (LICENSE); data and documentation are CC BY 4.0 (LICENSE-DATA)."
+}

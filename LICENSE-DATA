@@ -1,0 +1,8 @@
+The data files (data/processed/*) and documentation (docs/*, report/*) in this
+repository are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Olufisayo Ogunbayo, Cardiometabolic Trial Accrual Ledger.
+Underlying source: ClinicalTrials.gov, U.S. National Library of Medicine,
+accessed 13 October 2026. Records have been transformed as described in
+docs/CODING_RULES.md.

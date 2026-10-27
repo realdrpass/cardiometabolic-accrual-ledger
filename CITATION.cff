@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Cardiometabolic Trial Accrual Ledger"
+version: "1.0.0"
+date-released: "2026-10-26"
+authors:
+  - family-names: "Ogunbayo"
+    given-names: "Olufisayo"
+    orcid: "https://orcid.org/0009-0003-0351-0786"
+    affiliation: "Independent Researcher"
+license: CC-BY-4.0
+repository-code: "https://github.com/realdrpass/cardiometabolic-accrual-ledger"
+abstract: "Open trial-level dataset of 2,834 US Phase 2-4 interventional drug trials in diabetes, obesity, hypertension, heart failure and dyslipidemia (first posted 2008-2025, at least one US site), built from the ClinicalTrials.gov API (accessed 13 October 2026), with enrollment, site count, sponsor class, phase, and a rule-based classification of stated reasons for stopping early."
+keywords:
+  - clinical trials
+  - trial recruitment
+  - enrollment
+  - early termination
+  - ClinicalTrials.gov
+  - cardiometabolic disease
+  - diabetes
+  - heart failure
+# The DOI is added once Zenodo mints it.
